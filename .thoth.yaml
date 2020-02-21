@@ -1,14 +1,14 @@
-host: khemenu.thoth-station.ninja
+host: test.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
+version: 1.0
 
 runtime_environments:
-  - name: centos:7
+  - name: fedora:28
     operating_system:
-      name: centos
-      version: "7"
-    python_version: "3.6"
-    recommendation_type: latest
+      name: fedora
+      version: '28'
+    python_version: '3.6'
 
 recommendation_type: stable
 
