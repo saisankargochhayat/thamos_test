@@ -14,3 +14,9 @@ recommendation_type: stable
 
 managers:
   - name: info
+  - name: thoth-advise
+    configuration:
+      labels: [bot, kebechet]
+  - name: thoth-provenance
+    configuration:
+      labels: [bot, kebechet]
