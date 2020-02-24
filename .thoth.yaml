@@ -1,5 +1,5 @@
 
-host: khemenu.thoth-station.ninja
+host: test.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
 
@@ -17,9 +17,6 @@ managers:
   - name: thoth-advise
     configuration:
       labels: [bot, kebechet]
-<<<<<<< HEAD
-=======
   - name: thoth-provenance
     configuration:
       labels: [bot, kebechet]
->>>>>>> 638ebb9d203c99cbbb96591ff8a3124ff1ffd81f
